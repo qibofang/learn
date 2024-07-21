@@ -1,9 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
+import './AbstractInsertSort.sol';
 
-contract InsertSort {
+contract InsertSort is AbstractInsertSort {
+    string public logName = 'InsertSort';
 
-    function insertSort(uint[] memory _arr) external pure returns (uint[] memory) {
+    function insertSort(uint[] memory _arr) public pure override returns (uint[] memory) {
         if (_arr.length <= 1) {
             return _arr;
         }

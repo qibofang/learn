@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
-import './AbstractInsertSort.sol';
+// import './AbstractInsertSort.sol';
+import {AbstractInsertSort} from './AbstractInsertSort.sol';
+
 
 contract InsertSort is AbstractInsertSort {
     string public logName = 'InsertSort';

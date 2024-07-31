@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "allPairs",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "inToken0",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "inToken1",
+						"type": "address"
+					}
+				],
+				"name": "createPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pairAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "getPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PairFactory.sol": "PairFactory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Pair.sol": {
+			"keccak256": "0x173ad126bf9b85c5c1197a37b020338b82e96dcdc06974b4a11549cc61838e7e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b5670b8d47eb8a34e636361c2ee469a0636f233e6785707d25d1278b4852622",
+				"dweb:/ipfs/Qmbdq4yjNsw4imExAHdhzo2jDq8ohUykAvqV8YZUfTrHTp"
+			]
+		},
+		"contracts/PairFactory.sol": {
+			"keccak256": "0x2b23fcdb701d38fb4fccb9f020550bde7d5ee068adf293192667a1cf92d1d30e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8464c69071e635c579800d6d160b777b2a14149c766ab9e32ec84a19007f964c",
+				"dweb:/ipfs/QmbF4S7EEwm4UixZx6LYAxsf7QLcyC2TrCyoySgDHTK5eL"
+			]
+		}
+	},
+	"version": 1
+}

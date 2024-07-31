@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "dividend",
+						"type": "uint256"
+					}
+				],
+				"name": "getExactDividedBy2And3",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "dividend",
+						"type": "uint256"
+					}
+				],
+				"name": "getExactDividedBy2And3WithoutModifier",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Indentifier.sol": "Indentifier"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Base1.sol": {
+			"keccak256": "0xaac843adde8d88cda52f4de7fad63d5523cb8defe47304c55cc4d2a75c7c5876",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c068ac54e6126bb00a3b8685a48badef0a476024f3021f637e0eb6a47e16e9da",
+				"dweb:/ipfs/QmPbqmGLEUdufDUh4Qb2mnkSfuVE5TYSZ7gbWeRVPzxYxW"
+			]
+		},
+		"contracts/Indentifier.sol": {
+			"keccak256": "0x59d670ea2b07829b0393900a212d2083b428a10c33203b8da6c1b0524852f34f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://29c8750e11beccd1671c36ead67f4e303198850aa7833f3c8b5509105b4cee28",
+				"dweb:/ipfs/QmeuwM8tdJ5SjzZvbtrNNP5V8yMw5HjaQ4ffrWdCerCkc5"
+			]
+		}
+	},
+	"version": 1
+}
